@@ -104,19 +104,13 @@ const AvatarGroup = ({
   );
 };
 
-// Avatar with Status indicator
-const AvatarWithStatus = ({
-  status = 'offline',
-  statusPosition = 'bottom-right',
+// Avatar with Rating
+const AvatarWithRating = ({
+  rating,
+  ratingPosition = 'bottom-right',
+  showRating = true,
   ...props
 }) => {
-  const statusColors = {
-    online: 'bg-green-400',
-    offline: 'bg-gray-400',
-    busy: 'bg-red-400',
-    away: 'bg-yellow-400'
-  };
-
   const positions = {
     'top-right': '-top-1 -right-1',
     'top-left': '-top-1 -left-1',
@@ -127,9 +121,13 @@ const AvatarWithStatus = ({
   return (
     <div className="relative inline-block">
       <Avatar {...props} />
-      <span
-        className={`absolute ${positions[statusPosition]} h-3 w-3 rounded-full ring-2 ring-white ${statusColors[status]}`}
-      />
+      {showRating && (
+        <div
+          className={`absolute ${positions[ratingPosition]} flex items-center justify-center h-5 w-5 rounded-full bg-yellow-400 text-white text-xs font-medium ring-2 ring-white`}
+        >
+          {rating}
+        </div>
+      )}
     </div>
   );
 };
@@ -144,6 +142,6 @@ const AvatarWithStatus = ({
 //   ]}
 //   max={2}
 // />
-// <AvatarWithStatus src="user.jpg" status="online" />
+// <AvatarWithRating src="driver.jpg" rating={4.8} />
 
-export { Avatar, AvatarGroup, AvatarWithStatus };
+export { Avatar, AvatarGroup, AvatarWithRating };
