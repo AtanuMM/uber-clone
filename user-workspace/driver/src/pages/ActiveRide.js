@@ -6,7 +6,9 @@ import {
   MapPinIcon,
   PhoneIcon,
   ChatBubbleLeftIcon,
-  CheckCircleIcon
+  // CheckCircleIcon,
+  UserIcon,
+  StarIcon
 } from '@heroicons/react/24/outline';
 
 const ActiveRide = () => {

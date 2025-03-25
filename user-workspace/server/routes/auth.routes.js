@@ -6,7 +6,7 @@ const User = require('../models/User');
 const { authMiddleware, isAdmin } = require('../middleware/auth.middleware');
 
 // Register new user (rider/driver)
-router.post('/register', asyncHandler(async (req, res) => {
+router.post('/rider/register', asyncHandler(async (req, res) => {
   const {
     email,
     password,
@@ -72,6 +72,59 @@ router.post('/register', asyncHandler(async (req, res) => {
 
 // Login user
 router.post('/login', asyncHandler(async (req, res) => {
+  const { email, password } = req.body;
+
+  // Find user by email
+  const user = await User.findOne({ email });
+  if (!user) {
+    return res.status(401).json({
+      success: false,
+      message: 'Invalid email or password'
+    });
+  }
+
+  // Check if user is active
+  if (!user.isActive) {
+    return res.status(403).json({
+      success: false,
+      message: 'Your account has been deactivated'
+    });
+  }
+
+  // Verify password
+  const isMatch = await user.comparePassword(password);
+  if (!isMatch) {
+    return res.status(401).json({
+      success: false,
+      message: 'Invalid email or password'
+    });
+  }
+
+  // Generate JWT token
+  const token = jwt.sign(
+    { userId: user._id },
+    process.env.JWT_SECRET,
+    { expiresIn: '24h' }
+  );
+
+  res.json({
+    success: true,
+    message: 'Login successful',
+    data: {
+      token,
+      user: {
+        id: user._id,
+        email: user.email,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        role: user.role
+      }
+    }
+  });
+}));
+
+// Driver login
+router.post('/driver/login', asyncHandler(async (req, res) => {
   const { email, password } = req.body;
 
   // Find user by email

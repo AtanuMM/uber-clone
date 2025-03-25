@@ -5,7 +5,8 @@ import {
   UserIcon,
   StarIcon,
   TruckIcon,
-  DocumentTextIcon
+  DocumentTextIcon,
+  ClockIcon
 } from '@heroicons/react/24/outline';
 
 const Profile = () => {

@@ -6,7 +6,8 @@ import {
   MapPinIcon,
   UserIcon,
   CurrencyDollarIcon,
-  ClockIcon
+  ClockIcon,
+  StarIcon
 } from '@heroicons/react/24/outline';
 
 const RideRequests = () => {

@@ -159,7 +159,7 @@ const Profile = () => {
                   {location.type === 'home' ? (
                     <HomeIcon className="h-5 w-5 text-gray-400" />
                   ) : location.type === 'office' ? (
-                    <OfficeBuildingIcon className="h-5 w-5 text-gray-400" />
+                    <UserIcon className="h-5 w-5 text-gray-400" />
                   ) : (
                     <MapIcon className="h-5 w-5 text-gray-400" />
                   )}

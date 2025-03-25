@@ -1,0 +1,198 @@
+2025-03-25 13:49:11 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 13:49:11 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 13:49:11 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 13:49:11 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 13:51:22 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 13:51:22 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 13:51:22 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 13:51:22 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 13:51:53 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 13:51:53 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 13:51:53 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 13:51:53 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 13:58:37 [31merror[39m: [31mUser validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6).[39m
+2025-03-25 13:58:37 [31merror[39m: [31mValidationError: User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6).[39m
+[31m    at Document.invalidate (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/document.js:3219:32)[39m
+[31m    at /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/document.js:3012:17[39m
+[31m    at /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1368:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)[39m
+2025-03-25 14:04:55 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:04:55 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:04:55 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:04:55 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:06:08 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:06:08 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:06:08 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:06:08 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:08:06 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:08:06 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:08:06 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:08:06 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:43:58 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:43:58 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:43:58 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:43:58 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:44:31 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:44:31 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
+2025-03-25 14:44:31 [31merror[39m: [31mCast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+2025-03-25 14:44:31 [31merror[39m: [31mCastError: Cast to ObjectId failed for value "stats" (type string) at path "_id" for model "Ride"[39m
+[31m    at ObjectId.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schema/objectid.js:250:11)[39m
+[31m    at SchemaType.applySetters (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1219:12)[39m
+[31m    at SchemaType.castForQuery (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/schematype.js:1633:15)[39m
+[31m    at cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/cast.js:389:32)[39m
+[31m    at Query.cast (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4927:12)[39m
+[31m    at Query._castConditions (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2237:10)[39m
+[31m    at model.Query._findOne (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:2533:8)[39m
+[31m    at model.Query.exec (/home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/node_modules/mongoose/lib/query.js:4447:28)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async /home/lp-55/Documents/Playground/uber_clone/uber-clone/user-workspace/server/routes/ride.routes.js:79:16[39m
